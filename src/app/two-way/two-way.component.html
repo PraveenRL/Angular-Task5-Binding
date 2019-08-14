@@ -1,0 +1,33 @@
+<div id="div1" class="m-0">
+        <h2 class="py-5 text-center font-italic">STUDENTS DETAILS</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-3"></div>
+                <div class="col-lg-4 col-md-6">
+                    <label class="text-white">Name</label>
+                    <input class="form-control" placeholder="Name" [(ngModel)]='name'/>
+                    <label class="text-white mt-2">Email</label>
+                    <input class="form-control" placeholder="Email" [(ngModel)]='email'>
+                    <label class="text-white mt-2">Gender</label>
+                    <select class="form-control" placeholder="Select" [(ngModel)]='gender'>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                    <label class="text-white mt-2">Age</label>
+                    <input class="form-control" placeholder="Age"[(ngModel)]='age'>
+                    <label class="text-white mt-2">Aadhar No :</label>
+                    <input class="form-control" placeholder="Aadhar No"[(ngModel)]='aadhar'>
+                    <div class="bg-warning my-4 text-center">
+                            <p>{{name}}</p>
+                            <p>{{email}}</p>
+                            <p>{{gender}}</p>
+                            <p>{{age}}</p>
+                            <p>{{aadhar}}</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3"></div>
+            </div>
+        </div>
+    </div>
+    
