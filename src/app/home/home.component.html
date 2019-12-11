@@ -1,27 +1,27 @@
 <h2 class="my-3 text-center">{{p1}}</h2>
 
 <nav class="navbar navbar-light bg-warning navbar-expand-md">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar1" [style.font-size.px]='20'>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-2">
-              <a class="nav-link" routerLink = 'property' routerLinkActive = 'active'>{{a1}}</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" routerLink = 'event' routerLinkActive = 'active'>{{a2}}</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" routerLink = 'one-way' routerLinkActive = 'active'>{{a3}}</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" routerLink = 'two-way' routerLinkActive = 'active'>{{a4}}</a>
-            </li>
-          </ul>
-        </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar1" [style.font-size.px]='20'>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mx-2">
+        <a class="nav-link" routerLink='property' routerLinkActive='active'>{{a1}}</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" routerLink='event' routerLinkActive='active'>{{a2}}</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" routerLink='one-way' routerLinkActive='active'>{{a3}}</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link" routerLink='two-way' routerLinkActive='active'>{{a4}}</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 <router-outlet></router-outlet>
 <nav class="bg-secondary text-center py-3 text-white">
-    {{p2}}
+  {{p2}}
 </nav>
